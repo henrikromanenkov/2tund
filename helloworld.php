@@ -37,5 +37,13 @@
 	
 	Echo "Õnne!";
 
+?>
+<br>
+<?php
+
+	// Trüki välja kuupäev kujul: nädalapäev, kp kuu aasta
+	acho date("l,m.d.y e")
+
+
 
 ?>
