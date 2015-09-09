@@ -1,8 +1,8 @@
 <?php
+ 
+	
 
-	
-	
-	
+	echo$_GET["email"];
 
 ?>
 <html>
@@ -12,11 +12,11 @@
 </head>
 <body>
 	<h2>Log in</h2>
-	
-		<input type="email" placeholder="E-post"> <br><br>
-		<input type="password" placeholder="Parool"> <br><br>
-		<input type="submit" value="Log in"> 
-		
+		<form action="Login.php" method="get">
+			<input name="email" type="email" placeholder="E-post"> <br><br>
+			<input name="password" type="password" placeholder="Parool"> <br><br>
+			<input type="submit" value="Log in"> 
+		</form>
 		
 		
 	<h2>Create useer</h2>
