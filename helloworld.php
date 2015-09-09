@@ -1,1 +1,1 @@
-hello
+$first_name = "Henrik";
