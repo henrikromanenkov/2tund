@@ -13,7 +13,7 @@
 <body>
 	<h2>Log in</h2>
 	
-		<input type="email" placeholder=0"E-post"> <br><br>
+		<input type="email" placeholder="E-post"> <br><br>
 		<input type="password" placeholder="Parool"> <br><br>
 		<input type="submit" value="Log in"> 
 		
