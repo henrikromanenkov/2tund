@@ -10,7 +10,7 @@
 	$age = 9;
 
 	//testib loogikat, juhul kui vanus on väiksem kui 18
-	//siis kirjuta alaealine, muul juhul "täisealine".
+	//siis kirjuta "alaealine", muul juhul "täisealine".
 	
 	//if'i sisse loogikatehe
 	if($age < 18) {
@@ -20,7 +20,22 @@
 		
 	}else {
 		//väär
-		
 		echo "täisealine"
+	}
 	
+?>
+<br>
+<?php
+
+	//vastavalt vanuselel trükime nii mitu korda välja sõnan "palju"
+	
+	for($i = 0; $i < $age, $i = $i + 1) {
+		
+		//teguvus mis kordub
+		echo "palju";
+	}
+	
+	Echo "Õnne!";
+
+
 ?>
